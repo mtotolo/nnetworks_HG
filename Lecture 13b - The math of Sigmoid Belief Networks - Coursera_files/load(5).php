@@ -1,0 +1,13 @@
+mw.loader.implement("jquery.checkboxShiftClick", ["https://share.coursera.org/wiki/resources/jquery/jquery.checkboxShiftClick.js"], {}, {});
+mw.loader.implement("jquery.cookie", ["https://share.coursera.org/wiki/resources/jquery/jquery.cookie.js"], {}, {});
+mw.loader.implement("jquery.makeCollapsible", ["https://share.coursera.org/wiki/resources/jquery/jquery.makeCollapsible.js"], {"all": ["https://share.coursera.org/wiki/resources/jquery/jquery.makeCollapsible.css"]}, {"collapsible-expand":"Expand","collapsible-collapse":"Collapse"});
+mw.loader.implement("jquery.messageBox", ["https://share.coursera.org/wiki/resources/jquery/jquery.messageBox.js"], {"all": ["https://share.coursera.org/wiki/resources/jquery/jquery.messageBox.css"]}, {});
+mw.loader.implement("jquery.mwPrototypes", ["https://share.coursera.org/wiki/resources/jquery/jquery.mwPrototypes.js"], {}, {});
+mw.loader.implement("jquery.placeholder", ["https://share.coursera.org/wiki/resources/jquery/jquery.placeholder.js"], {}, {});
+mw.loader.implement("mediawiki.action.watch.ajax", ["https://share.coursera.org/wiki/resources/mediawiki.action/mediawiki.action.watch.ajax.js"], {}, {"watch":"Watch","unwatch":"Unwatch","watching":"Watching...","unwatching":"Unwatching...","tooltip-ca-watch":"Add this page to your watchlist","tooltip-ca-unwatch":"Remove this page from your watchlist","watcherrortext":"An error occurred while changing your watchlist settings for \"$1\"."});
+mw.loader.implement("mediawiki.language", ["https://share.coursera.org/wiki/resources/mediawiki.language/mediawiki.language.js"], {}, {});
+mw.loader.implement("mediawiki.user", ["https://share.coursera.org/wiki/resources/mediawiki/mediawiki.user.js"], {}, {});
+mw.loader.implement("mediawiki.util", ["https://share.coursera.org/wiki/resources/mediawiki/mediawiki.util.js"], {}, {});
+mw.loader.implement("mediawiki.legacy.ajax", ["https://share.coursera.org/wiki/skins/common/ajax.js"], {}, {});
+mw.loader.implement("mediawiki.legacy.wikibits", ["https://share.coursera.org/wiki/skins/common/wikibits.js"], {}, {"showtoc":"show","hidetoc":"hide"});
+mw.loader.implement("mediawiki.page.ready", ["https://share.coursera.org/wiki/resources/mediawiki.page/mediawiki.page.ready.js"], {}, {});
